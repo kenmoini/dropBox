@@ -4,11 +4,11 @@ dropBox
 A collection of random but useful scripts not large, complex, or otherwise worthy of their own repo.
 
 ==Sort by Primary Language==
-[PHP](#PHP)
+[PHP](#php)
 
 PHP
 =====
-[DreamZilla](#dreamZilla)
+[DreamZilla](#dreamzilla)
 
 
 DreamZilla
