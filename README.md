@@ -21,6 +21,8 @@ A live version is able to be seen here: http://www.kenmoini.com/dropBox/dreamzil
 
 SaltServer
 ========
-SaltServer is a simple set of scripts that will bridge data passed from applications to the AlgLib computation engine.  This is how [SaltSmarts](www.saltsmarts.com) computes fertilizer profiles.  It spins up a simple XML-RPC server, formats the data slightly, passes it to the AlgLib library, and returns the processed data.
+SaltServer is a simple set of scripts that will bridge data passed from applications to the AlgLib computation engine.  This is how [SaltSmarts](http://www.saltsmarts.com) computes fertilizer profiles.  It spins up a simple XML-RPC server, formats the data slightly, passes it to the AlgLib library, and returns the processed data.
+
 To install, you'll need to install the AlgLib CPython library first.  With that being complete, edit the lines 23 and 27 in saltServer.py to match where you'll be serving from, and lines 4 and 12 in serverCheck.sh if you'd like to use the script to keep the SaltServer running via CRON.
+
 Server expexts two arrays of the same size, and will return either a 3 item array when successfully processed, or a 2 item array if computation has failed.
