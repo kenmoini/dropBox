@@ -1,13 +1,13 @@
 dropBox
 =======
 
-A collection of random but useful scripts not large, complex, or otherwise worthy of their own repo.  Most will also have their own branch so the whole repository is not needed to be synced.
+A collection of random but useful scripts not large, complex, or otherwise worthy of their own repo.
 
 ######Sort by Primary Language
 [Perl](#perl) &bull; [PHP](#php) &bull; [Python](#python)
 
 ###Perl
-[OpenVPN Client Generator](#openvpn-client-generator)
+[OpenVPN Client Packager](#openvpn-client-Packager)
 
 ###PHP
 [DreamZilla](#dreamzilla)
@@ -15,9 +15,11 @@ A collection of random but useful scripts not large, complex, or otherwise worth
 ###Python
 [SaltServer](#saltServer)
 
-OpenVPN Client Generator
+OpenVPN Client Packager
 ========
 I wrote a set of scripts to provide more administrative functions over VPN technology, especially with tieing into a web panel/application.  This one that I've released is part of that library of scripts, it takes queued database entries for clients that need a certificate generated, generates it, packages it together with a few other needed and helpful files, and updates the database to indicate the generated ZIP file being available.
+
+You can find it under the OpenVPN-Packager directory.
 
 DreamZilla
 ========
