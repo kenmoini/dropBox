@@ -23,7 +23,7 @@ I wrote a set of scripts to provide more administrative functions over VPN techn
 
 You can find it under the OpenVPN-Packager directory.
 
-Simple Automatic WordPres Backup Utility
+Simple Automatic WordPress Backup Utility
 ========
 This is a script I've deployed to many of my WordPress installations.  The utility backs up the WordPress database as well as the files into separate packages and directories.  It pulls database connection information live from the wp-config.php file and it even creates the backup directories if needed.
 
